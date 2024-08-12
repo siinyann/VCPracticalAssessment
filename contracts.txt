@@ -1,0 +1,7 @@
+APIConsumer.sol
+pragma solidity ^0.8.7;
+import “@chainlink/contracts/src/v0.8/ChainlinkClient.sol”;
+uint256 public volume;
+address private immutable oracle;
+byte32 private immutable jobID;
+uint256 private immutable fee;
