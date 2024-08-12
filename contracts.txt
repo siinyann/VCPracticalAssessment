@@ -5,3 +5,6 @@ uint256 public volume;
 address private immutable oracle;
 byte32 private immutable jobID;
 uint256 private immutable fee;
+Network: Rinkeby
+Oracle: 0xc57b33452bf7bb189bb5afae9cc4
+Fee: 0.1 LINK
