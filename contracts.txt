@@ -1,9 +1,9 @@
 APIConsumer.sol
 pragma solidity ^0.8.7;
 import “@chainlink/contracts/src/v0.8/ChainlinkClient.sol”;
-uint256 public volume;
-address private immutable oracle;
-byte32 private immutable jobID;
+uint256 [] public S_randomWords;
+address vrfCoordinator;
+byte32 keyHash
 uint256 private immutable fee;
 Network: Rinkeby
 Oracle: 0xc57b33452bf7bb189bb5afae9cc4
